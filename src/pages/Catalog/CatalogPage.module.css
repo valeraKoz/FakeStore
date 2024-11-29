@@ -1,0 +1,11 @@
+@media screen and (width < 768px){
+    .title{
+        font-size: 24px;
+    }
+    .title span{
+        display: block;
+    }
+    .wrapper{
+        width: 100%;
+    }
+}
