@@ -1,0 +1,65 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: start;
+}
+
+.container {
+  padding: 30px 20px;
+  background-color: #202020;
+  box-shadow: 0 5px 14px rgba(100, 100, 100, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.product {
+  display: flex;
+}
+
+.mainImage {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.specTitle {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.spec {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.specItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.specItemInfoMain {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.specItemInfo {
+  width: 49%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.specItemInfo span {
+  width: 50%;
+}
+
+@media screen and (width < 768px) {
+  .title {
+    font-size: 16px;
+  }
+}
+
+/*# sourceMappingURL=ProductPage.module.css.map */

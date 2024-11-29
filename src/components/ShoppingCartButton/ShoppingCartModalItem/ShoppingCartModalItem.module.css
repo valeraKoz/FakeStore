@@ -1,0 +1,33 @@
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    font-size: 12px;
+    margin-top: 20px;
+    gap: 15px;
+}
+.image{
+    width: 80px;
+    border-radius: 6px;
+}
+.name{
+    margin: 3px 0 0;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    text-align: left;
+    text-decoration: none;
+}
+.name:hover{
+    color: darkorange;
+    cursor: pointer;
+}
+.price{
+    min-width: 100px;
+    font-size: 16px;
+    text-align: right;
+}
+.delete:hover > svg{
+    fill: darkorange;
+    cursor: pointer;
+}

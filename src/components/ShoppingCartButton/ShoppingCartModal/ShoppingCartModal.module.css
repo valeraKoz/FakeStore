@@ -1,0 +1,41 @@
+.wrapper{
+    transform: scale(0);
+    overflow: hidden;
+    position: absolute;
+    transition: all .3s ease-in-out;
+    opacity: 0;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: #202020;
+    right: 0;
+    top: 46px;
+}
+
+.fadein{
+    transform: scale(1);
+    opacity: 1;
+}
+.header{
+    display: flex;
+    width: 480px;
+    justify-content: space-between;
+    font-size: 13px;
+    align-items: center;
+}
+.count{
+    font-weight: 800;
+    margin: 0;
+}
+.clear{
+    margin: 0;
+}
+.clear:hover{
+    cursor: pointer;
+    color: darkorange;
+}
+.price{
+    margin-top: 20px;
+}
